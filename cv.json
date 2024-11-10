@@ -3,9 +3,15 @@
     "name": "Karla Pereyra",
     "label": "Data Analyst",
     "email": "Cakaki68@gmail.com",
+    "phone": null,
+    "url": "https://karlapereyra.vercel.app.com",
+    "summary": "Experienced Data Analyst with a proven track record in data visualization, predictive modeling, and business intelligence. Skilled in SQL, Python, Power BI, and Tableau, with a strong focus on creating actionable insights and optimizing decision-making processes. Adept at automating workflows, designing interactive dashboards, and collaborating with cross-functional teams. Fluent in Spanish and English, with a Bachelor's degree in Systems Engineering and multiple certifications in advanced analytics. Passionate about leveraging data to drive strategic business outcomes.",
     "location": {
+      "address": null,
+      "postalCode": null,
       "city": "Santo Domingo",
-      "countryCode": "DR"
+      "countryCode": "DR",
+      "region": null
     },
     "profiles": [
       {
@@ -19,48 +25,53 @@
     {
       "name": "Industrias San Miguel",
       "position": "Data Analyst",
-      "startDate":"2023-06-03" ,
+      "url": null,
+      "startDate": "2023-06-03",
       "endDate": null,
       "summary": "Follow up on Procyon and ISM Beverages brand sales, investigate and correct visit duplication using SQL, and build daily customer KPIs. Extract historical sales data for 2023-2024.",
       "highlights": [
         "Created interactive Power BI dashboard for product relaunch, improving product measurement by 50%.",
         "Developed quarterly bonus report in Power BI to determine sales managers' incentives.",
-         "Execute queries in SQL Postgres database for visibility of daily multi-category sales, tracking 5% of sales variability.",
-         "Build through SQL ISM sales reports, grouping 2 managers, providing information of more than 80,000 customers.",
-         "Build sales tracking KPIs by Procyon product Sku increasing sales reach by region by 20%.",
-         "Design and present interactive Dashboard for Procyon management to understand Velvet supplier sales dynamics.",
-         "Improve Dashboard Design for ISM compote sales, increasing ease of use by 40%.",
-         "Update Procyon Entities according to management changes, identifying up to 10 changes per month.",
-         "Automate multi-category sales reports in Power BI for receipt to management, accelerating key product push and decision making by 50%.",
-         "Authorize and verify case rejection notifications via SQL Power Query Excel, validating for up to 8,000 rejected cases authorized for 5 different reasons.",
-         "Optimize SQL queries with Procyon and ISM sales information, speeding up the execution of reports built in Excel by 30%.",
-         "Lead and instruct 2 new hires in the understanding of sales business processes and product distribution and product distribution."
+        "Execute queries in SQL Postgres database for visibility of daily multi-category sales, tracking 5% of sales variability.",
+        "Build through SQL ISM sales reports, grouping 2 managers, providing information of more than 80,000 customers.",
+        "Build sales tracking KPIs by Procyon product Sku increasing sales reach by region by 20%.",
+        "Design and present interactive Dashboard for Procyon management to understand Velvet supplier sales dynamics.",
+        "Improve Dashboard Design for ISM compote sales, increasing ease of use by 40%.",
+        "Update Procyon Entities according to management changes, identifying up to 10 changes per month.",
+        "Automate multi-category sales reports in Power BI for receipt to management, accelerating key product push and decision making by 50%.",
+        "Authorize and verify case rejection notifications via SQL Power Query Excel, validating for up to 8,000 rejected cases authorized for 5 different reasons.",
+        "Optimize SQL queries with Procyon and ISM sales information, speeding up the execution of reports built in Excel by 30%.",
+        "Lead and instruct 2 new hires in the understanding of sales business processes and product distribution and product distribution."
       ]
     },
     {
       "name": "Independent Project",
       "position": "Data Scientist/Machine Learning Engineer",
+      "url": null,
+      "startDate": "2024-02-01",
+      "endDate": "2024-06-01",
       "summary": "Built predictive models for vehicle imports using ARIMA and SARIMAX algorithms in Python, validated seasonality using statistical methods, and deployed models with Streamlit.",
       "highlights": [
-       "Create management descriptive report in Python HTML, helping to determine the main brands used in the market and the cost of imports.",
+        "Create management descriptive report in Python HTML, helping to determine the main brands used in the market and the cost of imports.",
         "Create descriptive Python charts with the Seaborn and Matplotlib libraries to measure the volume of imported vehicles by country.",
         "Create Boxplot charts with Seaborn to compare the price variability of the most used brands.",
         "Create dynamic plots with Plotly Express to observe the volume and prediction of vehicles in the most used brands segment.",
         "Use autocorrelation methods in order to evaluate correlation with historical data.",
         "Develop predictive model for vehicle imports for 20 brands, forecasting two years into the future.",
-        "Clean empty values and impute with numerical values to avoid distortions in the evaluation of the model."
+        "Clean empty values and impute with numerical values to avoid distortions in the evaluation of the model.",
         "Apply linear regression methods using Scikit learn to train and test the correlation of vehicle values and tax rates to be applied.",
         "Create Joblibs with the joblib library to store the trained Predictive model and export to Deployment",
         "Employing Seasonal Decomposition, p-value and adfuller techniques to validate the existence of seasonal peaks by brand.",
         "Created interactive interface for easy navigation and prediction visualization.",
-        "Deploy model on Streamlit following MLOps methodology."
-        "Present to stakeholders the results of the predictive model and interactivity of the web app, allowing them to provide suggestions and actions to be taken."
+        "Deploy model on Streamlit following MLOps methodology.",
+        "Present to stakeholders the results of the predictive model and interactivity of the web app, allowing them to provide suggestions and actions to be taken.",
         "Document project implementation processes and procedures from start to finish for auditing."
       ]
     },
     {
       "name": "Altice Dominicana",
       "position": "Data Analyst - Finance Department",
+      "url": null,
       "startDate": "2021-12-01",
       "endDate": "2023-11-01",
       "summary": "Created financial reports for stakeholders, handled mass customer data, and supported monthly dashboard maintenance.",
@@ -71,9 +82,9 @@
         "Identify and quantify with SQL 98% of invoice shipment type data to B2B/B2C customers.",
         "Planned, organized, created, and managed BI project management tasks for email and SMS invoice delivery using hybrid agile - waterfall methodologies in Microsoft Project.",
         "Support BI Dashboard maintenance on a monthly basis for invoice distribution channels.",
-        "Identify and validate the quality of customer email data, resulting in a 25% decrease in defective and/or non-existent emails..",
+        "Identify and validate the quality of customer email data, resulting in a 25% decrease in defective and/or non-existent emails.",
         "Identify, analyze, and validate assumptions and anomalies about types of customers that might receive SMS, through statistical analysis and hypothesis testing.",
-        "Present findings through Dashboards and executive reports to the Finance Director on invoice sending in SMS and Email distribution channels..",
+        "Present findings through Dashboards and executive reports to the Finance Director on invoice sending in SMS and Email distribution channels.",
         "Improved data extraction by 10% using Oracle SQL.",
         "Reduced incorrect requests to business areas by 10%."
       ]
@@ -82,19 +93,65 @@
   "education": [
     {
       "institution": "Instituto Tecnológico de Santo Domingo (INTEC)",
+      "url": null,
       "area": "Systems Engineering",
       "studyType": "Bachelor's",
       "gpa": "3.52",
       "honors": "Cum Laude",
       "startDate": "2017-08-01",
-      "endDate": "2021-07-01"
+      "endDate": "2021-07-01",
+      "courses": null
     },
     {
       "institution": "Instituto Cultural Dominico Americano",
+      "url": null,
       "area": "English as Second Language",
       "studyType": "Certification",
       "startDate": "2007-03-01",
-      "endDate": "2016-03-01"
+      "endDate": "2016-03-01",
+      "courses": null
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Advanced Data Analytics in Power BI",
+      "issuer": null,
+      "date": "2023"
+    },
+    {
+      "name": "The Complete Oracle SQL Bootcamp",
+      "issuer": null,
+      "date": "2023"
+    },
+    {
+      "name": "Database Administration in Oracle",
+      "issuer": null,
+      "date": "2022"
+    },
+    {
+      "name": "Introduction to Statistics",
+      "issuer": null,
+      "date": "2022"
+    },
+    {
+      "name": "Linear Regression for Business Statistics",
+      "issuer": null,
+      "date": "2024"
+    },
+    {
+      "name": "Visual Analytics with Tableau",
+      "issuer": null,
+      "date": "2024"
+    },
+    {
+      "name": "Microsoft Excel - Advanced Excel Formulas & Functions",
+      "issuer": null,
+      "date": "2022"
+    },
+    {
+      "name": "Microsoft Excel - Data Visualization, Excel Charts & Graphs",
+      "issuer": null,
+      "date": "2022"
     }
   ],
   "skills": [
@@ -134,61 +191,14 @@
       "fluency": "Native"
     }
   ],
-  "certifications": [
-    {
-      "name": "Advanced Data Analytics in Power BI",
-      "issuer": null,
-      "date": "2023"
-    },
-    {
-      "name": "The Complete Oracle SQL Bootcamp",
-      "issuer": null,
-      "date": "2023"
-    }
-,
-    {
-      "name": "Database Administration in Oracle",
-      "issuer": null,
-      "date": "2022"
-    }
-,
-    {
-      "name": "Introduction to Statistics",
-      "issuer": null,
-      "date": "2022"
-    }
-
-   ,
-    {
-      "name": "Linear Regression for Business Statistics",
-      "issuer": null,
-      "date": "2024"
-    }
-   ,
-    {
-      "name": "Visual Analytics with Tableau",
-      "issuer": null,
-      "date": "2024"
-    }
-    ,
-    {
-      "name": "Microsoft Excel - Advanced Excel Formulas & Functions",
-      "issuer": null,
-      "date": "2022"
-    }
-    ,
-    {
-      "name": "Microsoft Excel - Data Visualization, Excel Charts & Graphs",
-      "issuer": null,
-      "date": "2022"
-    }
-
-
-  ],
   "projects": [
     {
       "name": "Predictive Model for Vehicle Imports",
-      "description": "Built and deployed predictive models for vehicle imports using ARIMA and SARIMAX in Python, presented through an interactive Streamlit interface."
+      "isActive": null,
+      "description": "Built and deployed predictive models for vehicle imports using ARIMA and SARIMAX in Python, presented through an interactive Streamlit interface.",
+      "highlights": [],
+      "url": null,
+      "github": null
     }
   ],
   "achievements": [

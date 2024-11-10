@@ -4,13 +4,13 @@ import Section from "../Section.astro"
 import { education } from "@cv"
 ---
 
-<Section title="Educación">
+<Section title="Education">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area }) => {
+      education.map(({ institution, startDate, endDate, area, gpa, honors }) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          endDate != null ? new Date(endDate).getFullYear() : "Current"
         const years = `${startYear} - ${endYear}`
 
         return (
@@ -26,6 +26,8 @@ import { education } from "@cv"
 
               <footer>
                 <p>{area}</p>
+                {gpa && <p>GPA: {gpa}</p>}
+                {honors && <p>Honors: {honors}</p>}
               </footer>
             </article>
           </li>
