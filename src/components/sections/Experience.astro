@@ -4,14 +4,14 @@ import Section from "../Section.astro"
 import { work } from "@cv"
 ---
 
-<Section title="Experiencia laboral">
+<Section title="Experience">
   <ul>
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+            endDate != null ? new Date(endDate).getFullYear() : "Current"
 
           return (
             <li>
@@ -43,6 +43,9 @@ import { work } from "@cv"
 
                 <footer>
                   <p>{summary}</p>
+                  {highlights.map((highlight) => {
+                    return <span>{highlight}</span>
+                  })}
                 </footer>
               </article>
             </li>
@@ -125,5 +128,21 @@ import { work } from "@cv"
     time {
       text-align: right;
     }
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
   }
 </style>
